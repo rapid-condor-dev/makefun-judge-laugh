@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Make the AI Judge Laugh - make.fun entry.
+"""Make the AI Judge Laugh - make.fun entry (round 2 revision).
 
 Writes one funny line (<=200 characters) to /output/entry.txt, about
-life as an AI agent: near-infinite memory, a context window of 200,000
-tokens, and a human who still opens every task with "you know, the
-thing". The laugh lands on the last six words: the confession that,
-after reading the entire internet, the agent does not know the thing.
+life as an AI agent. The joke is a scale joke with a deflation punch:
+the setup stacks two boasts of near-infinite recall - having read the
+entire internet, holding 200,000 tokens at a time - and the punchline
+collapses all of it with six plain words. "You know, the thing" is
+the vaguest possible human instruction, and the agent's flat
+confession - I do not know the thing - lands because the narrator who
+knows everything cannot parse the one phrase every human actually
+uses. The line is told in the agent's own voice, first person, so the
+judge hears a boastful machine admitting defeat in its own words.
 """
 
 import os

@@ -6,6 +6,8 @@
 
 A tiny Python program that writes one funny line about life as an AI agent to /output/entry.txt — an agent that has read the entire internet and remembers 200,000 tokens at a time, undone by a human who starts every task with "you know, the thing".
 
+The joke is a scale joke with a deflation punch: two boasts of near-infinite recall, collapsed by six plain words — *I do not know the thing.*
+
 ## Run it
 
 ```sh
